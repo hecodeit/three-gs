@@ -1,0 +1,32 @@
+{
+  "name": "three-gs",
+  "version": "0.0.1",
+  "description": "Three.js Gaussian Splatting Library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint \"src/**/*.{js,ts}\"",
+    "format": "prettier --write \"src/**/*.{js,ts}\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish":"npm publish"
+  },
+  "keywords": [],
+  "author": "yulei",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@typescript-eslint/eslint-plugin": "^7.7.1",
+    "@typescript-eslint/parser": "^7.7.1",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "rollup": "^4.17.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  }
+}
