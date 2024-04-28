@@ -1,2 +1,1 @@
-const Hello = () => 'Hello, world!';
-export { Hello };
+export { Splat } from './splat/Splat';
